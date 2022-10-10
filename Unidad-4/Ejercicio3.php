@@ -1,3 +1,8 @@
+<?php
+/*
+Ejercicio 3. Crea un formulario que lea un número , después un mensaje nos indicará si era realmente o no un número y, si es un número , si tenía decimales. 
+*/
+?>
 <!DOCTYPE html >
 <html lang="es">
    <head>
@@ -19,8 +24,8 @@
                   echo "<h1>No se ha recibido un número</h1>" ;
                }
             exit;   
-            }
-         }             
+            }//fi number
+         }//fi enviar             
 
       ?>
       <form action="Ejercicio3.php">

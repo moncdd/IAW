@@ -1,3 +1,9 @@
+<?php
+/*
+Ejercicio 9. Crear una página PHP que muestre por pantalla todo el código ASCII en una tabla de 16 columnas.
+Como pista, la función chr(), recibe un número y muestra el código ASCII equivalente . Así chr (65) muestra el carácter A.
+*/
+?>
 <!DOCTYPE html>
 <html lang="es">
    <head>
@@ -36,7 +42,7 @@
                   //al llegar a la columna 8, saltamos de fila
                   if($i%9==0) echo "</tr><tr>";
                   echo "<td class='codigo'>".$i."</td><td>".chr($i)."</td>";
-               }
+               }//for
             ?>
          </tr>   
       </table>

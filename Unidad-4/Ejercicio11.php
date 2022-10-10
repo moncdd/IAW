@@ -1,3 +1,10 @@
+<?php
+/*
+Ejercicio 11. Como última mejora (muy avanzada), haz que la tabla anterior se pueda mostrar paginada.
+De modo que en cada pantalla se muestren 495 códigos y unos enlaces permitan pasar a la
+siguiente página.
+*/
+?>
 <!DOCTYPE html>
 <html lang="es">
    <head>

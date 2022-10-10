@@ -1,3 +1,8 @@
+<?php
+/*
+Ejercicio 6. Crea un formulario que pida dos números. Ambos tienen que valer 1 o más, de no ser así se indica el error. El resultado será una tabla (se mostrará en la misma página del formulario) con el tamaño indicado 
+*/
+?>
 <!DOCTYPE html>
 <html lang="es">
    <head>
@@ -44,7 +49,7 @@
             } else {
                echo "<p class= 'error' >"."Número de filas y/o columnas incorrecto</p> ";
             }
-         }
+         }//fi enviar
       ?>
    </body>
 </html>
