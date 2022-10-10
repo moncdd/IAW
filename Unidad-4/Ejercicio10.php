@@ -2,7 +2,7 @@
 <html lang="es">
    <head>
       <meta charset="UTF-8">
-      <title>Ejercicio 9</title>
+      <title>Ejercicio 10</title>
       <style>
          td,th {
                 border: 1px solid black;
@@ -32,10 +32,10 @@
          <tr>
             <?php
                //imprimo los caracteres ASCII
-               for($i=0;$i<256;$i++){
+               for($i=0;$i<50001;$i++){
                   //al llegar a la columna 8, saltamos de fila
                   if($i%9==0) echo "</tr><tr>";
-                  echo "<td class='codigo'>".$i."</td><td>".chr($i)."</td>";
+                  echo "<td class='codigo'>".$i."</td><td>&#".$i.";</td>";
                }
             ?>
          </tr>   
